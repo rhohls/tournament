@@ -3,7 +3,7 @@ Tournament
 
 Installation 
 ------------
-Step 1. Install Brew:
+- Step 1. Install Brew:
 
   Thanks to Tolsadus for the WTC brew - https://raw.githubusercontent.com/tolsadus/42homebrewfix
   
@@ -11,7 +11,8 @@ Step 1. Install Brew:
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Tolsadus/42homebrewfix/master/install.sh)"
 ```
-Step 2. Install Python:
+
+- Step 2. Install Python:
 
   From the terminal run:
   ```
@@ -20,7 +21,7 @@ Step 2. Install Python:
   This step will take a while ... be patient.
   
   
-Step 3. Install PyQt:
+- Step 3. Install PyQt:
   From the terminal run:
   ```
   pip3 install pyqt5
