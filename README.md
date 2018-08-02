@@ -1,7 +1,8 @@
-# tournament
+Tournament
+=============
 
-# Installation 
-
+Installation 
+------------
 Step 1. Install Brew:
 
   Thanks to Tolsadus for the WTC brew - https://raw.githubusercontent.com/tolsadus/42homebrewfix
@@ -23,13 +24,13 @@ Step 3. Install PyQt:
   ```
   pip3 install pyqt5
   ```
-# Running the game
-
+Running the game
+----------------
 From then you should be able to run the tournament using:
 ```
 python3 main.py
 ```  
-You can save the setting to run similar state games in the future 
+You can save the settings to a file and load it in the future for quick run through of games 
 (this is what the front page is for)
 
 On hitting finish the results will play in the terminal
