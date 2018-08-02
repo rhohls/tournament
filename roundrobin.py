@@ -7,7 +7,7 @@ Created on Sun Jul 15 13:51:56 2018
 
 import json
 from random import randint, shuffle
-from vm_py import shell_exe, color
+from vm_py import shell_exe
 from subprocess import call
 import sys, os
 

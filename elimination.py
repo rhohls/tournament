@@ -12,7 +12,7 @@ Created on Sun Jul 29 08:20:50 2018
 #TODO colour winner 
 import json
 from random import randint, shuffle
-from vm_py import shell_exe, color
+from vm_py import shell_exe
 from subprocess import call
 import sys
 class color:
