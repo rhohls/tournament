@@ -12,6 +12,7 @@ Step 1. Install Brew:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Tolsadus/42homebrewfix/master/install.sh)"
 ```
 Step 2. Install Python:
+
   From the terminal run:
   ```
   brew install python3
