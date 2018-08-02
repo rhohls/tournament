@@ -9,13 +9,30 @@ Created on Sun Jul 29 08:20:50 2018
  [                                      etc                                  ])
 """
 
-#TODO colour winner - idea by tbenedict
+#TODO colour winner 
 import json
 from random import randint, shuffle
 from vm_py import shell_exe, color
 from subprocess import call
 import sys
-
+class color:
+    end = "\033[0m"
+    black = "\033[0;30m"
+    blackb = "\033[1;30m"
+    white = "\033[0;37m"
+    whiteb = "\033[1;37m"
+    red = "\033[0;31m"
+    redb = "\033[1;31m"
+    green = "\033[0;32m"
+    greenb = "\033[1;32m"
+    yellow = "\033[0;33m"
+    yellowb = "\033[1;33m"
+    blue = "\033[0;34m"
+    blueb = "\033[1;34m"
+    purple = "\033[0;35m"
+    purpleb = "\033[1;35m"
+    lightblue = "\033[0;36m"
+    lightblueb = "\033[1;36m"
 class Elimination(object):
     #Todo -- add 3rd place and multi elim
     def __init__(self):
