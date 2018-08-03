@@ -31,8 +31,21 @@ Running the game
 From then you should be able to run the tournament using:
 ```
 python3 main.py
-```  
-You can save the settings to a file and load it in the future for quick run through of games 
-(this is what the front page is for)
-
+```
 On hitting finish the results will play in the terminal
+
+Changing the map can be don in the "vm_py.py" file. Simply edit the map in the parameters
+
+The front page is where you can load file where the state of the settings are stored. This will allow easy replay of the tournament without having to edit all the settings.
+
+For the player page you will need to select the folder where the players are, and then update the list from the folder.
+
+
+Disclaimer
+----------
+This project is still in beta. Some feature arent working as intended and some dont work at all. Its possible for random error messages to occur and stuff to not work at all. Sorry.
+
+Error handling and checking isnt at full capacity as of yet (we in beta).
+
+
+
