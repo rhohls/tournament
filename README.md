@@ -36,9 +36,14 @@ On hitting finish the results will play in the terminal
 
 Changing the map can be don in the "vm_py.py" file. Simply edit the map in the parameters
 
-The front page is where you can load file where the state of the settings are stored. This will allow easy replay of the tournament without having to edit all the settings.
-
 For the player page you will need to select the folder where the players are, and then update the list from the folder.
+
+
+Confusion regards the front page:
+
+This is where you can a load file where the state of the settings are stored. On the first run through there will be no settings to load, however you can choose to save what settings you select in the GUI in this file. This will allow easy replay of the tournament without having to edit all the settings again.
+
+
 
 
 Disclaimer
